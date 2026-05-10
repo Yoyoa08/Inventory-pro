@@ -2,14 +2,14 @@ import streamlit as st
 import pandas as pd
 
 
-st.set_page_config(page_title="Titan Inventory Pro", layout="wide")
+st.set_page_config(page_title="Titan Inventory_pro", layout="wide")
 
 if 'inventory' not in st.session_state:
     st.session_state.inventory = []
 
 LOW_STOCK_THRESHOLD = 5
 
-st.title("Inventory Pro")
+st.title("Inventory_pro")
 
 tab1, tab2 = st.tabs(["➕ Register Stock", "📊 Inventory Hub"])
 
